@@ -27,7 +27,9 @@ function define_location_taxonomy() {
     'labels'       => $labels,
     'hierarchical' => true,
     'public'       => true,
-    'query_var'    => true
+    'show_ui'      => true,
+    'query_var'    => true,
+    'show_in_rest' => true
   );
 
   # register the taxonomy. Locations only apply to posts.
